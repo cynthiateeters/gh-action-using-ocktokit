@@ -1,5 +1,5 @@
 // .github/actions/my-script.js
-const { Octokit } = require("@octokit/action");
+import { Octokit } from "@octokit/action";
 
 const octokit = new Octokit();
 
