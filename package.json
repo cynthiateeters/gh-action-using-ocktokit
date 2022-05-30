@@ -1,0 +1,23 @@
+{
+  "name": "gh-action-octokit",
+  "version": "1.0.0",
+  "description": "Based off of this [Octokit Example](https://github.com/octokit/action.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynthiateeters/gh-action-using-ocktokit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cynthiateeters/gh-action-using-ocktokit/issues"
+  },
+  "homepage": "https://github.com/cynthiateeters/gh-action-using-ocktokit#readme",
+  "dependencies": {
+    "@octokit/action": "^3.18.1"
+  }
+}
