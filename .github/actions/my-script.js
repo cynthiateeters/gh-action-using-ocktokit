@@ -3,6 +3,9 @@ const { Octokit } = require("@octokit/action");
 
 const octokit = new Octokit();
 
+const makeIssue = async () => {
+
+
 // `octokit` is now authenticated using GITHUB_TOKEN
 
 const [owner, repo] = process.env.GITHUB_REPOSITORY.split("/");
@@ -13,4 +16,7 @@ const { data } = await octokit.request("POST /repos/{owner}/{repo}/issues", {
   repo,
   title: "My test issue",
 });
-console.log("Issue created: %s", data.html_url);
+  console.log("Issue created: %s", data.html_url);
+};
+
+makeIssue();
